@@ -41,7 +41,7 @@ function checkAnswer() {
     if (isCorrect) {
         alert("Thats RIGHT!");
     }   else{
-        alert(`Naaaaw, thats WRONG with ${userAnswer}. ${calculatedAnswer} is the one![0]}!`);
+        alert(`Oh noo, thats WRONG with ${userAnswer}. ${calculatedAnswer} is the one![0]}!`);
     }
     runGame(calculatedAnswer[1]);
 
